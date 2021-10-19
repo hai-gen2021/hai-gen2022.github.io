@@ -1,0 +1,21 @@
+---
+---
+
+// $primary: hsl(214, 26%, 37%);
+
+$primary: rgb(226, 230, 0);
+$info: rgb(226, 230, 0);
+
+// Import Main CSS file from theme
+@import "main";
+
+ul.spaced-list li {
+    padding-bottom: 1em;
+}
+
+// .hero {
+//     background-image: url("/img/bg.jpeg") !important;
+//     background-position: right center !important;
+//     background-size: 110%;
+//     background-repeat: no-repeat;
+// }

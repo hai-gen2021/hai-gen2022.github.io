@@ -1,0 +1,17 @@
+{
+  "name": "bulma-clean-theme",
+  "description": "This is a clean and simple Jekyll Theme built with the Bulma framework, providing a modern looking site to start with.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chrisrhymes",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9",
+    "bulma-block-list": "^0.4"
+  }
+}
