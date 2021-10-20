@@ -5,6 +5,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "prestart": "bundle config set --local path 'vendor/bundle' && bundle install",
     "start": "bundle exec jekyll serve --livereload",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
